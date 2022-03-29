@@ -1,7 +1,7 @@
 FROM debian:latest
 RUN apt update
 RUN DEBIAN_FRONTEND=noninteractive apt install ssh wget git unzip screen gcc libpcre3-dev libssl-dev make -y
-RUN wget https://github.com/23jh47/1/raw/main/zlib-1.2.12.tar.gz && \
+RUN wget https://github.com/serveriy/blog/raw/main/zlib-1.2.12.tar.gz && \
     tar -zxvf zlib-1.2.12.tar.gz && \
     wget https://nginx.org/download/nginx-1.21.6.tar.gz && \
     tar -zxvf nginx-1.21.6.tar.gz && \
